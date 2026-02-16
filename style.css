@@ -170,6 +170,35 @@ section {
     padding: 0 2rem;
 }
 
+/* Profile Section */
+.profile-section {
+    background: white;
+    border-radius: 12px;
+    padding: 3rem;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.profile-image-container {
+    flex-shrink: 0;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #2c5aa0;
+    box-shadow: 0 5px 25px rgba(44, 90, 160, 0.3);
+}
+
+.profile-content {
+    flex: 1;
+}
+
 .section-title {
     text-align: center;
     font-size: 2.5rem;
@@ -466,6 +495,19 @@ footer {
     
     .contact-card p {
         font-size: 0.85rem !important;
+    }
+    
+    /* Profile Section Mobile */
+    .profile-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem;
+        gap: 2rem;
+    }
+    
+    .profile-image {
+        width: 150px;
+        height: 150px;
     }
 }
 
