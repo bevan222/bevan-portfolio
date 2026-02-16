@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>工作經歷 | 盧柏文 Po-Wen Lu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">盧柏文 Po-Wen Lu</div>
+            <ul class="nav-links">
+                <li><a href="index.html">關於我</a></li>
+                <li><a href="experience.html" class="active">工作經歷</a></li>
+                <li><a href="projects.html">專案作品</a></li>
+                <li><a href="skills.html">技能專長</a></li>
+                <li><a href="contact.html">聯絡我</a></li>
+            </ul>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">關於我</a>
+        <a href="experience.html" class="active">工作經歷</a>
+        <a href="projects.html">專案作品</a>
+        <a href="skills.html">技能專長</a>
+        <a href="contact.html">聯絡我</a>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>工作經歷</h1>
+        <p class="hero-subtitle">從研究助理到系統分析師，累積跨領域產品開發經驗</p>
+    </div>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="index.html">首頁</a> > 工作經歷
+    </div>
+
+    <!-- Experience Section -->
+    <section>
+        <h2 class="section-title">工作經歷</h2>
+        <div class="grid">
+            
+            <!-- Experience 1 -->
+            <div class="card">
+                <div class="card-image">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">系統分析師 (SA)</h3>
+                    <p class="card-subtitle">SoftBI Corp. Ltd | Oct 2023 - Present</p>
+                    <ul class="card-text" style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 0.8rem;">
+                            <strong>• 凱基證券 CRM 系統</strong><br>
+                            需求訪談、API 與資料庫規格設計，橋接商業與技術端
+                        </li>
+                        <li style="margin-bottom: 0.8rem;">
+                            <strong>• 台中銀行財富管理系統</strong><br>
+                            資料分析與整合，提升資料正確性與查詢效率
+                        </li>
+                        <li>
+                            <strong>• BI 模組開發</strong><br>
+                            UI 設計、功能規格規劃、模組化設計
+                        </li>
+                    </ul>
+                    <div class="card-tags">
+                        <span class="tag">Scrum</span>
+                        <span class="tag">Figma</span>
+                        <span class="tag">MSSQL</span>
+                        <span class="tag">API Design</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience 2 -->
+            <div class="card">
+                <div class="card-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                    <i class="fas fa-code"></i>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">前端工程師</h3>
+                    <p class="card-subtitle">進順股份有限公司 | Nov 2022 - Oct 2023</p>
+                    <ul class="card-text" style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 0.8rem;">
+                            <strong>• 電池管理系統</strong><br>
+                            開發網頁版管理員與客戶頁面
+                        </li>
+                        <li style="margin-bottom: 0.8rem;">
+                            <strong>• 響應式設計</strong><br>
+                            使用 TailwindCSS 構建跨裝置網頁
+                        </li>
+                        <li>
+                            <strong>• 數據可視化</strong><br>
+                            利用 Recharts 建立電池數據圖表
+                        </li>
+                    </ul>
+                    <div class="card-tags">
+                        <span class="tag">Next.js</span>
+                        <span class="tag">TailwindCSS</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">Recharts</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience 3 -->
+            <div class="card">
+                <div class="card-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Web 軟體工程實習生</h3>
+                    <p class="card-subtitle">天工科技有限公司 | Jul 2022 - Oct 2022</p>
+                    <ul class="card-text" style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 0.8rem;">
+                            <strong>• ASP.NET Core 網頁維護</strong><br>
+                            維護及增進效能，發佈到 Azure 伺服器
+                        </li>
+                        <li style="margin-bottom: 0.8rem;">
+                            <strong>• 記帳系統開發</strong><br>
+                            基於 ASP.NET Core MVC，提供成本與收入分析
+                        </li>
+                        <li>
+                            <strong>• 資料庫設計</strong><br>
+                            使用 EF Core 設置 MS SQL 資料庫
+                        </li>
+                    </ul>
+                    <div class="card-tags">
+                        <span class="tag">ASP.NET Core</span>
+                        <span class="tag">EF Core</span>
+                        <span class="tag">Azure</span>
+                        <span class="tag">Git</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience 4 -->
+            <div class="card">
+                <div class="card-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                    <i class="fas fa-flask"></i>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">研究助理</h3>
+                    <p class="card-subtitle">成功大學 FinTech 商創中心 | Jan 2021 - Dec 2022</p>
+                    <ul class="card-text" style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 0.8rem;">
+                            <strong>• 億進寢具行銷專案</strong><br>
+                            實作 Louvain 分群演算法，回購率從 5.2% 提升至 <strong style="color: #2c5aa0;">16.7% (3倍成長)</strong>
+                        </li>
+                        <li style="margin-bottom: 0.8rem;">
+                            <strong>• 蜀隆花卉 CRM 系統</strong><br>
+                            使用 Flask + GCP 開發，提升營運效率
+                        </li>
+                        <li>
+                            <strong>• 數據分析與視覺化</strong><br>
+                            Chart.js 繪製圖表，提升推薦準確度
+                        </li>
+                    </ul>
+                    <div class="card-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Flask</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">GCP</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Achievement -->
+        <div class="achievement">
+            <i class="fas fa-trophy"></i>
+            <h3>競賽獲獎</h3>
+            <p style="font-size: 1.1rem; margin-top: 1rem;">
+                <strong>「2021 Win the PRIDE：用指標說故事」競賽 - 特優</strong>
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h3 class="footer-title">盧柏文 Po-Wen Lu</h3>
+            <p class="footer-info">系統分析師 & 前端工程師</p>
+            
+            <div class="footer-social">
+                <a href="https://github.com/bevan222" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://medium.com/@bevan2628" target="_blank"><i class="fab fa-medium"></i></a>
+                <a href="mailto:bevan2628@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/po-wen-lu" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            
+            <div class="footer-copyright">
+                © 2026 Po-Wen Lu. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

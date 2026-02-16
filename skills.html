@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>技能專長 | 盧柏文 Po-Wen Lu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">盧柏文 Po-Wen Lu</div>
+            <ul class="nav-links">
+                <li><a href="index.html">關於我</a></li>
+                <li><a href="experience.html">工作經歷</a></li>
+                <li><a href="projects.html">專案作品</a></li>
+                <li><a href="skills.html" class="active">技能專長</a></li>
+                <li><a href="contact.html">聯絡我</a></li>
+            </ul>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">關於我</a>
+        <a href="experience.html">工作經歷</a>
+        <a href="projects.html">專案作品</a>
+        <a href="skills.html" class="active">技能專長</a>
+        <a href="contact.html">聯絡我</a>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>技能專長</h1>
+        <p class="hero-subtitle">跨領域技術與管理能力</p>
+    </div>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="index.html">首頁</a> > 技能專長
+    </div>
+
+    <!-- Skills Section -->
+    <section>
+        <h2 class="section-title">技能專長</h2>
+        
+        <!-- Technical Skills -->
+        <h3 style="font-size: 1.8rem; margin-bottom: 1.5rem; color: #2c5aa0;">
+            <i class="fas fa-code"></i> 技術能力
+        </h3>
+        <div class="skills-grid">
+            
+            <div class="skill-category">
+                <h3><i class="fas fa-laptop-code"></i> 前端開發</h3>
+                <ul>
+                    <li>JavaScript / TypeScript</li>
+                    <li>React / Next.js</li>
+                    <li>HTML5 / CSS3</li>
+                    <li>TailwindCSS</li>
+                    <li>Responsive Design</li>
+                    <li>Chart.js / Recharts</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-server"></i> 後端開發</h3>
+                <ul>
+                    <li>Python / Flask</li>
+                    <li>Node.js</li>
+                    <li>ASP.NET Core</li>
+                    <li>RESTful API</li>
+                    <li>EF Core ORM</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-database"></i> 資料庫</h3>
+                <ul>
+                    <li>MS SQL Server</li>
+                    <li>PostgreSQL</li>
+                    <li>Firebase</li>
+                    <li>SQL 查詢優化</li>
+                    <li>資料庫設計</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-cloud"></i> 雲端 & DevOps</h3>
+                <ul>
+                    <li>Google Cloud Platform</li>
+                    <li>Microsoft Azure</li>
+                    <li>Git / GitHub</li>
+                    <li>CI/CD</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Management Skills -->
+        <h3 style="font-size: 1.8rem; margin: 3rem 0 1.5rem; color: #2c5aa0;">
+            <i class="fas fa-users"></i> 管理能力
+        </h3>
+        <div class="skills-grid">
+            
+            <div class="skill-category">
+                <h3><i class="fas fa-lightbulb"></i> 產品管理</h3>
+                <ul>
+                    <li>需求訪談與分析</li>
+                    <li>PRD 文件撰寫</li>
+                    <li>User Flow 設計</li>
+                    <li>資料分析與整合</li>
+                    <li>UI/UX 規劃</li>
+                    <li>功能規格設計</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-project-diagram"></i> 專案管理</h3>
+                <ul>
+                    <li>Scrum 敏捷開發</li>
+                    <li>跨部門溝通協調</li>
+                    <li>客戶關係維運</li>
+                    <li>開發時程規劃</li>
+                    <li>風險管理</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-tools"></i> 開發工具</h3>
+                <ul>
+                    <li>Figma / Sketch</li>
+                    <li>Draw.io</li>
+                    <li>VS Code / Visual Studio</li>
+                    <li>Postman / Swagger</li>
+                    <li>JIRA / Trello</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-chart-bar"></i> 數據分析</h3>
+                <ul>
+                    <li>Python Pandas</li>
+                    <li>機器學習算法</li>
+                    <li>數據視覺化</li>
+                    <li>A/B Testing</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Languages -->
+        <h3 style="font-size: 1.8rem; margin: 3rem 0 1.5rem; color: #2c5aa0;">
+            <i class="fas fa-language"></i> 語言能力
+        </h3>
+        <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+            <div class="card">
+                <div class="card-content">
+                    <h3 class="card-title">中文</h3>
+                    <p class="card-text">母語（Native）</p>
+                    <div style="background: #e8f0ff; height: 10px; border-radius: 5px; margin-top: 1rem;">
+                        <div style="background: #2c5aa0; width: 100%; height: 100%; border-radius: 5px;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3 class="card-title">英文</h3>
+                    <p class="card-text">專業工作能力（TOEIC 830）</p>
+                    <div style="background: #e8f0ff; height: 10px; border-radius: 5px; margin-top: 1rem;">
+                        <div style="background: #2c5aa0; width: 83%; height: 100%; border-radius: 5px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Interests -->
+        <h3 style="font-size: 1.8rem; margin: 3rem 0 1.5rem; color: #2c5aa0;">
+            <i class="fas fa-heart"></i> 興趣與愛好
+        </h3>
+        <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+            <div class="stat-card">
+                <i class="fas fa-chart-line" style="font-size: 2.5rem; color: #2c5aa0; margin-bottom: 1rem;"></i>
+                <div class="stat-label">投資理財</div>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-pen-fancy" style="font-size: 2.5rem; color: #2c5aa0; margin-bottom: 1rem;"></i>
+                <div class="stat-label">寫作分享</div>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-dice" style="font-size: 2.5rem; color: #2c5aa0; margin-bottom: 1rem;"></i>
+                <div class="stat-label">撲克策略</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h3 class="footer-title">盧柏文 Po-Wen Lu</h3>
+            <p class="footer-info">系統分析師 & 前端工程師</p>
+            
+            <div class="footer-social">
+                <a href="https://github.com/bevan222" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://medium.com/@bevan2628" target="_blank"><i class="fab fa-medium"></i></a>
+                <a href="mailto:bevan2628@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/po-wen-lu" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            
+            <div class="footer-copyright">
+                © 2026 Po-Wen Lu. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

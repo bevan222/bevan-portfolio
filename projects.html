@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>專案作品 | 盧柏文 Po-Wen Lu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">盧柏文 Po-Wen Lu</div>
+            <ul class="nav-links">
+                <li><a href="index.html">關於我</a></li>
+                <li><a href="experience.html">工作經歷</a></li>
+                <li><a href="projects.html" class="active">專案作品</a></li>
+                <li><a href="skills.html">技能專長</a></li>
+                <li><a href="contact.html">聯絡我</a></li>
+            </ul>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">關於我</a>
+        <a href="experience.html">工作經歷</a>
+        <a href="projects.html" class="active">專案作品</a>
+        <a href="skills.html">技能專長</a>
+        <a href="contact.html">聯絡我</a>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>專案作品</h1>
+        <p class="hero-subtitle">Side Projects 展示技術實力與解決問題的能力</p>
+    </div>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="index.html">首頁</a> > 專案作品
+    </div>
+
+    <!-- Projects Section -->
+    <section>
+        <h2 class="section-title">Side Projects</h2>
+        <div class="grid">
+            
+            <!-- Project 1 -->
+            <div class="card">
+                <div class="card-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">幣安自動交易機器人</h3>
+                    <p class="card-text">
+                        使用 Binance API 撰寫運行馬丁格爾策略的自動交易機器人，提供使用者區間套利服務，
+                        並透過直接操作帳戶節省交易所額外費用。
+                    </p>
+                    <div class="card-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Binance API</span>
+                        <span class="tag">Trading Bot</span>
+                        <span class="tag">Algorithm</span>
+                    </div>
+                    <div style="margin-top: 1.5rem;">
+                        <a href="https://github.com/bevan222" target="_blank" style="color: #2c5aa0; text-decoration: none; font-weight: 500;">
+                            <i class="fab fa-github"></i> 查看程式碼
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="card">
+                <div class="card-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">RW-Stock App</h3>
+                    <p class="card-text">
+                        基於 React 開發的自定義股票服務應用，使用 Firebase 實時數據庫與主機服務。
+                        用戶可在每支股票上做筆記，並匯出相應的 Excel 檔案。
+                    </p>
+                    <div class="card-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Firebase</span>
+                        <span class="tag">Excel Export</span>
+                        <span class="tag">Real-time DB</span>
+                    </div>
+                    <div style="margin-top: 1.5rem;">
+                        <a href="https://github.com/bevan222" target="_blank" style="color: #2c5aa0; text-decoration: none; font-weight: 500;">
+                            <i class="fab fa-github"></i> 查看程式碼
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 - Placeholder for future projects -->
+            <div class="card" style="border: 2px dashed #ddd; background: #f9f9f9;">
+                <div class="card-image" style="background: linear-gradient(135deg, #e0e0e0 0%, #c0c0c0 100%);">
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">更多專案開發中...</h3>
+                    <p class="card-text">
+                        持續探索新技術並實作有趣的專案。歡迎到我的 GitHub 查看最新進度！
+                    </p>
+                    <div style="margin-top: 1.5rem;">
+                        <a href="https://github.com/bevan222" target="_blank" style="color: #2c5aa0; text-decoration: none; font-weight: 500;">
+                            <i class="fab fa-github"></i> 前往 GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Call to Action -->
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 3rem; text-align: center; color: white; margin-top: 3rem;">
+            <h3 style="font-size: 2rem; margin-bottom: 1rem;">有興趣合作嗎？</h3>
+            <p style="font-size: 1.2rem; margin-bottom: 2rem; opacity: 0.95;">
+                我樂於接受新的挑戰和合作機會
+            </p>
+            <a href="contact.html" style="background: white; color: #667eea; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block;">
+                聯絡我
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h3 class="footer-title">盧柏文 Po-Wen Lu</h3>
+            <p class="footer-info">系統分析師 & 前端工程師</p>
+            
+            <div class="footer-social">
+                <a href="https://github.com/bevan222" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://medium.com/@bevan2628" target="_blank"><i class="fab fa-medium"></i></a>
+                <a href="mailto:bevan2628@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/po-wen-lu" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            
+            <div class="footer-copyright">
+                © 2026 Po-Wen Lu. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
