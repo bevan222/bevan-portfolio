@@ -180,10 +180,14 @@ section {
     gap: 3rem;
     align-items: center;
     margin-bottom: 3rem;
+    overflow: hidden;
 }
 
 .profile-image-container {
     flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .profile-image {
@@ -193,10 +197,12 @@ section {
     object-fit: cover;
     border: 5px solid #2c5aa0;
     box-shadow: 0 5px 25px rgba(44, 90, 160, 0.3);
+    display: block;
 }
 
 .profile-content {
     flex: 1;
+    min-width: 0;
 }
 
 .section-title {
@@ -479,6 +485,10 @@ footer {
         grid-template-columns: 1fr;
     }
     
+    section {
+        padding: 0 1rem;
+    }
+    
     /* Contact Card Mobile */
     .contact-card {
         padding: 1.5rem 1rem;
@@ -501,13 +511,25 @@ footer {
     .profile-section {
         flex-direction: column;
         text-align: center;
-        padding: 2rem;
-        gap: 2rem;
+        padding: 1.5rem;
+        gap: 1.5rem;
+    }
+    
+    .profile-image-container {
+        margin: 0 auto;
     }
     
     .profile-image {
-        width: 150px;
-        height: 150px;
+        width: 120px !important;
+        height: 120px !important;
+    }
+    
+    .profile-content {
+        text-align: left;
+    }
+    
+    .profile-content p {
+        font-size: 1rem !important;
     }
 }
 
